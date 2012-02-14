@@ -30,3 +30,9 @@ def test(a=1,b=2,*c)
   c.each{|x| print " #{x}, "}  # We will learn about "each" very soon.  I promise.
 end
 test 3, 6, 9, 12, 15, 18
+
+# counting down test
+puts "#############"
+a = 1,2,3,4,5,6,7,8,9,10
+puts a
+a.length.downto(0) { |index| puts a[index] }
