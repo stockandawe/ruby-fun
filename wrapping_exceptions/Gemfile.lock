@@ -1,0 +1,16 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    stripe (5.33.0)
+
+PLATFORMS
+  x86_64-darwin-20
+
+DEPENDENCIES
+  stripe (~> 5.11)
+
+RUBY VERSION
+   ruby 2.6.6p146
+
+BUNDLED WITH
+   2.2.17
